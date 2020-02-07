@@ -2,7 +2,7 @@
 using AlgorithmChallenges.Codility.Solutions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CodingUtilityTests
+namespace AlgorithmChallenges.Codility.SolutionTests
 {
     [TestClass]
     public class ArrayRotatorTests

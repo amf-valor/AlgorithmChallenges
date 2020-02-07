@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using AlgorithmChallenges.Codility.Solutions;
 using AlgorithmChallenges.Common;
 
-namespace CodingUtilityTests
+namespace AlgorithmChallenges.Codility.SolutionTests
 {
     [TestClass]
     public class MissingIntergerDetectorTests

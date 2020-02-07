@@ -2,9 +2,8 @@
 using AlgorithmChallenges.Common;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Diagnostics;
 
-namespace CodingUtilityTests
+namespace AlgorithmChallenges.Codility.SolutionTests
 {
     [TestClass]
     public class MaxCounterTests
