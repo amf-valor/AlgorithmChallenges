@@ -63,7 +63,7 @@
         {
             int length = smallestPrimes.Length;
             var semiPrimesCounter = new int[length];
-            int count = 0;
+            int counter = 0;
 
             for (int i = 0; i < length; i++)
             {
@@ -71,10 +71,10 @@
                 
                 if (smallestPrime > 0 && smallestPrimes[i / smallestPrime] == 0 )
                 {
-                    count++;
+                    counter++;
                 }
 
-                semiPrimesCounter[i] = count;
+                semiPrimesCounter[i] = counter;
             }
 
             return semiPrimesCounter;
