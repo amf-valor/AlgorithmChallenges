@@ -3,12 +3,12 @@
 namespace AlgorithmChallenges.Codility.Solutions.BinarySearchAlgorithm
 {
     /// <summary>
-    /// Lesson 14 - Binary Search Algorithm
+    /// Lesson 14 - MinMaxDivision
     /// </summary>
     public class LargeSumMinimizor
     {
         /// <summary>
-        /// we use binary search with predicate evaluation(greedy checking), the link bellow is a really good reference of explanation
+        /// we use binary search with predicate evaluation(greedily checking), the link bellow is a really good reference of explanation
         /// https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/
         /// </summary>
         /// <param name="K"></param>
