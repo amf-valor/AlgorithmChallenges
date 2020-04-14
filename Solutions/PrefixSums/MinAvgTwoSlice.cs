@@ -1,9 +1,9 @@
-﻿namespace AlgorithmChallenges.Codility.Solutions
+﻿namespace AlgorithmChallenges.Codility.Solutions.PrefixSums
 {
     /// <summary>
     /// lesson 5 prefixSums - MinAvgTwoSlice
     /// </summary>
-    public class MinimumAverageSliceFinder
+    public class MinAvgTwoSlice
     {
         /// <summary>
         /// the slices are subsets of array with 2 or 3 elements, for example:
