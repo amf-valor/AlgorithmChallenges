@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace AlgorithmChallenges.Codility.Solutions
+namespace AlgorithmChallenges.Codility.Solutions.CountingElements
 {
-    public class PermutationChecker
+    public class PermCheck
     {
         public int Check(int[] A)
         {
