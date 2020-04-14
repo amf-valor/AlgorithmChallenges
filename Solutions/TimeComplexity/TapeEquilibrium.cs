@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AlgorithmChallenges.Codility.Solutions
+namespace AlgorithmChallenges.Codility.Solutions.TimeComplexity
 {
-    public class TapeEquilibriumMinimizer
+    public class TapeEquilibrium
     {
         public int Minimize(int[] A)
         {
