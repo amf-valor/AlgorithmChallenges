@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace AlgorithmChallenges.Codility.Solutions
+namespace AlgorithmChallenges.Codility.Solutions.PrefixSums
 {
-    public class DivCounter
+    public class CountDiv
     {
 
         public int Count(int A, int B, int K)
