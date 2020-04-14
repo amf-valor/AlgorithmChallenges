@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace AlgorithmChallenges.Codility.Solutions
+namespace AlgorithmChallenges.Codility.Solutions.TimeComplexity
 {
-    public class MinimalFrogJumpCalculator
+    public class FrogJmp
     {
         public int Calculate(int X, int Y, int D)
         {
