@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace AlgorithmChallenges.Codility.Solutions
+namespace AlgorithmChallenges.Codility.Solutions.CountingElements
 {
-    public class MaxCounter
+    public class MaxCounters
     {
         public int[] Count(int N, int[] A)
         {
