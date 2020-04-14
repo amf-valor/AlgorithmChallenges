@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 
-namespace AlgorithmChallenges.Codility.Solutions
+namespace AlgorithmChallenges.Codility.Solutions.Sorting
 {
-    public class DistinctGetter
+    public class Distinct
     {
         public int Get(int[] A)
         {
