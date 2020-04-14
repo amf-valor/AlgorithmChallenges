@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace AlgorithmChallenges.Codility.Solutions
+namespace AlgorithmChallenges.Codility.Solutions.CountingElements
 {
-    public class EarliestFrogJumperFinder
+    public class FrogRiverOne
     {
         public int Find(int X, int[] A)
         {
