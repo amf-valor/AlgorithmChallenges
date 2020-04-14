@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Linq;
 
-namespace AlgorithmChallenges.Codility.Solutions
+namespace AlgorithmChallenges.Codility.Solutions.Iterations
 {
-    public class LongestBinaryGapFinder
+    /// <summary>
+    /// Lesson 1 - Iterations
+    /// </summary>
+    public class BinaryGap
     {
         public int Find(int N)
         {
