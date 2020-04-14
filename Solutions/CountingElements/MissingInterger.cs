@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace AlgorithmChallenges.Codility.Solutions
+namespace AlgorithmChallenges.Codility.Solutions.CountingElements
 {
-    public class MissingIntergerDetector
+    public class MissingInterger
     {
         public int Detect(int[] A)
         {
