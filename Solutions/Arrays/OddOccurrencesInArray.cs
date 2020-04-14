@@ -1,8 +1,11 @@
 ﻿using System.Linq;
 
-namespace AlgorithmChallenges.Codility.Solutions
+namespace AlgorithmChallenges.Codility.Solutions.Arrays
 {
-    public class UnpairedNumbersFinder
+    /// <summary>
+    /// Lesson 2 - OddOccurrencesInArray
+    /// </summary>
+    public class OddOccurrencesInArray
     {
         public int Find(int[] A)
         {

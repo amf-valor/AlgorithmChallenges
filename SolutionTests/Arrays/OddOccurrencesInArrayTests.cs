@@ -1,16 +1,16 @@
-﻿using AlgorithmChallenges.Codility.Solutions;
+﻿using AlgorithmChallenges.Codility.Solutions.Arrays;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AlgorithmChallenges.Codility.SolutionTests
+namespace AlgorithmChallenges.Codility.SolutionTests.Arrays
 {
     [TestClass]
-    public class UnpairedNumbersFinderTests
+    public class OddOccurrencesInArrayTests
     {
         [TestMethod]
         public void ShouldReturn7()
         {
-            UnpairedNumbersFinder finder = new UnpairedNumbersFinder();
-            int[] A = new int[] { 9,3,9,3,9,7,9 };
+            OddOccurrencesInArray finder = new OddOccurrencesInArray();
+            int[] A = new int[] { 9, 3, 9, 3, 9, 7, 9 };
 
             int expected = 7;
             int actual = finder.Find(A);
