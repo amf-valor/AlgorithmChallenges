@@ -1,6 +1,6 @@
-﻿namespace AlgorithmChallenges.Codility.Solutions
+﻿namespace AlgorithmChallenges.Codility.Solutions.TimeComplexity
 {
-    public class PermElemFinder
+    public class PermMissingElem
     {
         public int Find(int[] A)
         {
