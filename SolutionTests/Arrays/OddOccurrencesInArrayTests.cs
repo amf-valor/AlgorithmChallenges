@@ -7,7 +7,7 @@ namespace AlgorithmChallenges.Codility.SolutionTests.Arrays
     public class OddOccurrencesInArrayTests
     {
         [TestMethod]
-        public void ShouldReturn7()
+        public void ShouldReturnUnpairedValueWhenGivenNonEmptyA()
         {
             OddOccurrencesInArray finder = new OddOccurrencesInArray();
             int[] A = new int[] { 9, 3, 9, 3, 9, 7, 9 };
