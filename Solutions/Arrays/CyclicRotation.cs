@@ -1,9 +1,18 @@
 ﻿using System;
 
-namespace AlgorithmChallenges.Codility.Solutions
+namespace AlgorithmChallenges.Codility.Solutions.Arrays
 {
-    public class ArrayRotator
+    /// <summary>
+    /// Lesson 2 - Arrays
+    /// </summary>
+    public class CyclicRotation
     {
+        /// <summary>
+        /// Despite the fact no touching the A array is using O(2n) space time complexity this would be tunned as you wish
+        /// </summary>
+        /// <param name="A"></param>
+        /// <param name="K"></param>
+        /// <returns></returns>
         public int[] Rotate(int[] A, int K)
         {
             int[] arrayToRotate = new int[A.Length];
