@@ -1,25 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AlgorithmChallenges.Codility.Solutions
+namespace AlgorithmChallenges.Codility.Solutions.PrefixSums
 {
     public class GenomicRangeQuery
     {
-        /// <summary>
-        /// Using jagged array [][] to mount a matrix such as:
-        /// {0{1,0,0,0}, 1{0,1,0,0} ... }
-        /// it's an array of array which has the string length to count whole string 
-        /// and an inside array of 4 elements, because there are four factors.
-        /// Each number of an insider array represents a counter of a factor
-        /// the factors are already ordered, so counters are 0 = A, 1 = C, 2 = G, 3 = T
-        /// After the matrix is done check which ocurrences have changed if the P is diferent from 0
-        /// because wheather zero we just need which letter appeard first depending on the importance
-        /// given by the factor
-        /// </summary>
-        /// <param name="S"></param>
-        /// <param name="P"></param>
-        /// <param name="Q"></param>
-        /// <returns></returns>
         public int[] Query(string S, int[] P, int[] Q)
         {
             var factors = new Dictionary<char, int>()
