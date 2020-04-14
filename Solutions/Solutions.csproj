@@ -7,8 +7,4 @@
     <LangVersion>latestmajor</LangVersion>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="ToptalTest\" />
-  </ItemGroup>
-
 </Project>
