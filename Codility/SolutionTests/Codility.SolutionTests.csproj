@@ -17,8 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj" />
-    <ProjectReference Include="..\Solutions\Solutions.csproj" />
+    <ProjectReference Include="..\Solutions\Codility.Solutions.csproj" />
   </ItemGroup>
 
 </Project>
