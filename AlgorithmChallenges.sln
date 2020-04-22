@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codility.Solutions", "Codil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codility.SolutionTests", "Codility\SolutionTests\Codility.SolutionTests.csproj", "{05112A75-737F-4F93-B4B2-14B661E04CBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CtCi.Solutions", "CrackingTheCodeInterview\CtCi.Solutions\CtCi.Solutions.csproj", "{81DDF6F2-DD37-4E7E-92D2-687EED9FAF12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CtCi.Solutions", "CrackingTheCodeInterview\CtCi.Solutions\CtCi.Solutions.csproj", "{81DDF6F2-DD37-4E7E-92D2-687EED9FAF12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CtCi.SolutionTests", "CrackingTheCodeInterview\CtCi.SolutionTests\CtCi.SolutionTests.csproj", "{5FB8EA21-70D1-4B22-B108-493329E00AB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CtCi.SolutionTests", "CrackingTheCodeInterview\CtCi.SolutionTests\CtCi.SolutionTests.csproj", "{5FB8EA21-70D1-4B22-B108-493329E00AB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{41B08EAB-E4B5-4302-980F-E179927B6899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Extensions", "Common.Extensions\Common.Extensions.csproj", "{CD267F71-05DA-46E4-9307-3DE2C99A2CE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,10 @@ Global
 		{5FB8EA21-70D1-4B22-B108-493329E00AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FB8EA21-70D1-4B22-B108-493329E00AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FB8EA21-70D1-4B22-B108-493329E00AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD267F71-05DA-46E4-9307-3DE2C99A2CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD267F71-05DA-46E4-9307-3DE2C99A2CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD267F71-05DA-46E4-9307-3DE2C99A2CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD267F71-05DA-46E4-9307-3DE2C99A2CE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,7 @@ Global
 		{05112A75-737F-4F93-B4B2-14B661E04CBF} = {E5E2D5F0-C250-42A9-8992-FC018B9C62DA}
 		{81DDF6F2-DD37-4E7E-92D2-687EED9FAF12} = {F9C38E96-0186-4E5D-862B-7A9A23D2E844}
 		{5FB8EA21-70D1-4B22-B108-493329E00AB1} = {F9C38E96-0186-4E5D-862B-7A9A23D2E844}
+		{CD267F71-05DA-46E4-9307-3DE2C99A2CE2} = {41B08EAB-E4B5-4302-980F-E179927B6899}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {47A17B39-162D-437D-B57A-3550CF621B38}
